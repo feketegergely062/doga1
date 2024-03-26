@@ -1,0 +1,9 @@
+<div *ngIf="kolcsonzok">
+    <ul>
+        <li *ngFor="let kolcsonzo of kolcsonzok ">
+            {{kolcsonzo.nev}} - {{kolcsonzo.szulIdo}}
+        </li>
+        <button (click)="ngOnInit()">Kölcsonzések</button>
+    </ul>
+
+</div>
